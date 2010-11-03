@@ -19,5 +19,10 @@ namespace WebApplication1
         {
 
         }
+
+        protected void btnStart_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("http://www.google.com");
+        }
     }
 }
